@@ -178,22 +178,21 @@
         <!-- SCREEN 1 -->
         <div class="screen active" id="screen1">
           <img
-            src="./menstrual awareness.png"
+            src="./sayingno_seekinghelp.png"
           />
 
-          <h2>Respect, Empathy, and Menstrual Awareness in School</h2>
+          <h2>Assertiveness – Saying NO & Seeking Help</h2>
           <p class="desc">
-            During a regular school day, a group of boys overhear that a girl in
-            their class has started her first period. Instead of being
-            supportive, they begin whispering, laughing, and making insensitive
-            jokes. The girl feels embarrassed, anxious, and avoids participating
-            in class activities. Some classmates notice what’s happening but
-            feel unsure whether to step in or stay silent. <br><br>
-            
-            The teacher is not present at that moment, and the classroom environment becomes
-            uncomfortable. This situation reflects a lack of awareness and
-            respect for natural biological processes, affecting not only the
-            girl’s confidence but also the overall class atmosphere. 
+            Someone you know tells you to keep a secret about something that
+            made you feel uncomfortable. They insist that you should not tell
+            anyone and may even warn you that sharing it could cause trouble.
+            This makes you feel confused, scared, and unsure about what to do.
+            You start thinking whether keeping the secret is the right thing or
+            if you should tell someone. <br /><br />
+
+            The pressure to stay silent makes you anxious. Situations like this
+            require understanding the difference between safe and unsafe secrets
+            and knowing when it is important to seek help from a trusted person.
           </p>
 
           <button class="main-btn" onclick="next(2)">Start Discussion</button>
@@ -203,14 +202,12 @@
         <div class="screen" id="screen2">
           <div class="back" onclick="next(1)">← Back</div>
 
-          <h2>If you were in this situation, what would you do?</h2>
+          <h2>What should you do in this situation?</h2>
 
           <!-- OPTION -->
           <div class="option-block">
             <div class="option-row">
-              <div class="option-text">
-                A. Ignore the situation and stay silent
-              </div>
+              <div class="option-text">A. Keep the secret</div>
               <div class="counter">
                 <button onclick="change(0, -1)">−</button>
                 <span id="c0">0</span>
@@ -222,9 +219,7 @@
 
           <div class="option-block">
             <div class="option-row">
-              <div class="option-text">
-                B. Join the boys to avoid feeling left out
-              </div>
+              <div class="option-text">B. Tell a trusted adult immediately</div>
               <div class="counter">
                 <button onclick="change(1, -1)">−</button>
                 <span id="c1">0</span>
@@ -236,9 +231,7 @@
 
           <div class="option-block">
             <div class="option-row">
-              <div class="option-text">
-                C. Support the girl and stop the boys politely
-              </div>
+              <div class="option-text">C. Ignore it</div>
               <div class="counter">
                 <button onclick="change(2, -1)">−</button>
                 <span id="c2">0</span>
@@ -250,9 +243,7 @@
 
           <div class="option-block">
             <div class="option-row">
-              <div class="option-text">
-                D.Record and share the incident with others
-              </div>
+              <div class="option-text">D. Tell only your friends</div>
               <div class="counter">
                 <button onclick="change(3, -1)">−</button>
                 <span id="c3">0</span>
@@ -270,46 +261,44 @@
           <h2>Review & Insights</h2>
 
           <div class="insight correct">
-            <b>C. Support the girl and stop the boys politely</b>
+            <b>B. Tell a trusted adult immediately</b>
             <p>
-              Supporting the girl and calmly stopping the boys is the most
-              responsible choice. It shows empathy, awareness, and courage. This
-              action helps create a safe and respectful environment, encourages
-              others to behave better, and ensures that no one feels ashamed of
-              a natural biological process.
+              Telling a trusted adult immediately is the best action. It ensures
+              your safety and allows responsible people to handle the situation
+              properly. Trusted adults can guide you, protect you, and take
+              necessary steps to prevent harm, making this the safest and most
+              appropriate choice.
             </p>
           </div>
 
           <div class="insight wrong">
-            <b>A.Ignore the situation and stay silent</b>
+            <b>A. Keep the secret</b>
             <p>
-              Ignoring the situation may feel safe, but it allows disrespectful
-              behavior to continue. Silence can indirectly support bullying and
-              make the affected student feel isolated. Taking no action means
-              missing the chance to stand up for what is right and create a
-              respectful classroom environment.
+              Keeping the secret might seem like the easiest option, but it can
+              put you at risk. Unsafe secrets should never be kept, especially
+              if they make you uncomfortable. Staying silent allows the
+              situation to continue and prevents you from getting the help you
+              need.
             </p>
           </div>
 
           <div class="insight wrong">
-            <b>B. Join the boys to avoid feeling left out</b>
+            <b>C. Ignore it</b>
             <p>
-              Joining the boys might help you fit in temporarily, but it
-              contributes to emotional harm. Making fun of someone for a natural
-              process like menstruation shows a lack of maturity and awareness.
-              It can damage the girl’s confidence and normalize insensitive
-              behavior among classmates.
+              Ignoring the situation does not solve the problem. It can lead to
+              ongoing discomfort or even danger. Facing the issue by speaking up
+              is important, as ignoring it only delays help and increases stress
+              or confusion.
             </p>
           </div>
 
           <div class="insight wrong">
-            <b>D. Record and share the incident with others</b>
+            <b>D. Tell only your friends</b>
             <p>
-              Recording and sharing the incident violates the girl’s privacy and
-              increases her embarrassment. Instead of helping, it spreads the
-              situation further and may lead to cyberbullying. Responsible
-              behavior means protecting someone’s dignity, not exposing them
-              during a vulnerable moment.
+              Telling only friends may provide temporary emotional support, but
+              they may not be able to handle the situation properly. Trusted
+              adults are better equipped to take action and ensure your safety,
+              which is why this option is not the most effective solution.
             </p>
           </div>
 
